@@ -1,0 +1,67 @@
+body {
+    background-color: black; /* Light gray background color */
+    font-family: 'Roboto', sans-serif;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url(assets/bg.jpg); */
+}
+
+.logo {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    margin-top: 20px;
+    color: #495057;
+}
+
+#intro {
+    margin-top: 30px;
+}
+
+#intro p {
+    margin: 20px auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: justify;
+    color: #6c757d;
+}
+
+#game {
+    margin-top: 50px;
+}
+
+#resultMessage {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#scoreDisplay {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
